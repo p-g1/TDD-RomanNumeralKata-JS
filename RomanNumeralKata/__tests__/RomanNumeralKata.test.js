@@ -24,6 +24,8 @@ describe("RomanNumeralKata", () => {
     ${18}  | ${"XVIII"}
     ${19}  | ${"XIX"}
     ${20}  | ${"XX"}
+    ${40}  | ${"XL"}
+    ${50}  | ${"L"}
 
   `(
     "should return numeral value of $expectedResult given $input",
