@@ -8,6 +8,7 @@ describe("RomanNumeralKata", () => {
     ${2}  | ${"II"}
     ${3}  | ${"III"}
     ${4}  | ${"IV"}
+    ${5}  | ${"V"}
 
   `(
     "should return numeral value of $expectedResult given $input",
